@@ -1,6 +1,5 @@
 # Hosting-Service_website
-This is basically a pretty large website having a standard of 5 pages for an imaginary web hosting website.Previously I made another web hosting website which was a one-pager. The project is made in HTML/CSS.I hope you will like my project !! And I have made it responsive from desktop size to till 480px.
-
+This is basically a pretty extensive website having a standard of 5 pages for an imaginary web hosting website. Previously I made another web hosting website which was a one-pager. The project is done in HTML/CSS. I hope you will like my project !! And I have made it responsive from desktop size to till 480px.
 # Technologies Used
  - HTML - Hyper Text Markup Language
  - CSS - Cascadeing Spread Sheet
