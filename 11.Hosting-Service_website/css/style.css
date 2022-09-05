@@ -1,0 +1,1382 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* ///////styling the navbar////// */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 30%;
+}
+
+.list-item{
+    padding: 0 20px;
+  }
+
+.list li :first-child{
+    color: rgb(8, 8, 8);
+    font-weight: bolder;
+}
+
+li:hover{
+  cursor: pointer;
+  font-weight: bolder;
+  color: #daa520;
+}
+
+.logo{
+    margin-left: 8%;
+}
+
+.navbutton{
+    margin-right: 6%;
+}
+
+.navbtn{
+    background: transparent;
+    border:2px solid rgb(7, 160, 243);
+    color: rgb(7, 160, 243);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.navbutton button:hover{
+    cursor: pointer;
+    background:#F4BE2C;
+    transition: all 1s ease;
+    box-shadow: 0px 5px 10px  black;
+}
+ /* ************************SECTION-1********************  */
+
+ .part1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+  }
+
+  .part1-left h1{
+    font-size: 55px;
+    padding-bottom: 5%;
+  }
+
+  /* /////////FOR ALL THE BUTTON///////// */
+  .button{
+    margin-top: 5%;
+  }
+
+  .button button{
+    background: linear-gradient(45deg,rgb(8, 177, 246), rgb(5, 103, 235) );
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 0px 5px 5px rgb(8, 177, 246);
+    margin-top: 3.5%;
+
+  }
+
+  .button button:hover{
+    cursor: pointer;
+    background:#F4BE2C;
+    transition: all 1s ease;
+    box-shadow: 0px 5px 10px  black;
+  }
+
+  .img1 img{
+  width: 500px;
+  }
+/* 
+  *****************SECTION 2******************* */
+
+  .midpart-2{
+    display: flex;
+    justify-content: space-around;
+    margin:10% 5%; 
+    
+  }
+
+  .img img{
+    width: 500px;
+  }
+
+  .content h1{
+    font-size: 55px;
+    padding-bottom: 5%;
+  }
+
+  /* *********************SECTION-3**************** */
+
+  .midpart-3{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .img1 {
+    margin-top: -5%;
+  }
+
+  /* /////////////////SERVICES//////////////// */
+
+  .service{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .service h1{
+    font-size: 55px;
+  }
+
+   .service p{
+    padding-top: 2%;
+   } 
+
+   /* ******************FEATURES PART******************* */
+
+   .features{
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+   }
+
+   /* ///////////////PACKAGES////////////// */
+
+
+ 
+.packages{
+    height: 150vh;
+    background: linear-gradient(to bottom right,rgb(9, 189, 248), rgb(4, 95, 233) );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+.packages .headline{
+    font-size: 40px;
+    color: #fff;
+} 
+
+  .pricings{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    } 
+
+    .PLAN{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      background-color: #fff;
+      margin-left: 5%;
+      height: 100vh;
+      border-radius: 10px;
+      width: 400px;
+    }
+
+    .plan-title{
+      padding: 20px;
+    }
+
+    .plan-title h1{
+      margin-bottom: 15px;
+    }
+    .PLAN .facility ul li{
+      list-style-type: none;
+      padding: 15px;
+    }
+
+.pricing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+    .pricing button{
+      background: transparent;
+    border:2px solid rgb(7, 160, 243);
+    color: rgb(7, 160, 243);
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.pricing button:hover{
+  cursor: pointer;
+}
+
+.special{
+  background: linear-gradient(45deg,rgb(8, 177, 246), rgb(5, 103, 235) );
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 0px 5px 5px rgb(8, 177, 246);
+    margin-top: 3.5%;
+
+}
+
+.three{
+  margin-right: 0% !important;
+}
+
+.two{
+  color: #fff;
+  background-color: #000;
+  padding: 10%;
+  margin-top: -18%;
+  border-radius: 10px;
+ }
+
+ .PLAN .plan-title p{
+  color: #808080;
+  font-size: 15px;
+ }
+
+ /* ////// IMPORTANT PART OF STYLING/////// */
+
+ .PLAN .facility ul li::before{
+  content: "\2713";
+  height: 17px;
+  width: 17px;
+  border: 2px solid green;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+.pricing span{
+  color: #000;
+}
+
+/* - ///////////////TESTIMONIAL////////////  */
+
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.testimonial h1{
+  font-size: 55px;
+  padding-bottom:25px ;
+}
+
+.testimonial p{
+  color:#808080;
+  padding-bottom: 35px;
+  margin-left: 3%;
+  text-align: center;
+}
+
+.reviews{
+ margin-right: 10%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+
+} 
+
+.review{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+ }
+
+article{
+  font-size: 20px;
+  margin-left: -6%;
+}
+
+
+ .info{
+  margin-top: 7%;
+   margin-left: -75%;
+} 
+
+.info div h3{
+  position: relative;
+  margin-top: -50%;
+  margin-left: 23%;
+  width: 100%;
+}
+
+.info div p{
+  position: relative;
+  margin-top: 10%;
+  margin-left: 23%;
+  width: 100%;
+}
+
+.profile img{
+  width: 75px;
+  margin-top: 27%;
+  margin-left: -50%;
+}
+
+
+
+/* /////////////REGISTER NOW////////  */
+.REGISTER{
+  height: 40vh;
+  background-color: rgb(4, 95, 233) ;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.registration h1{
+  margin-top: 12%;
+  font-size: 50px;
+  padding-bottom: 5%;
+  color:white;
+}
+
+.registration p{
+  color: #fff;
+}
+
+.registerbutton button{
+  background: transparent;
+  border:2px solid rgb(7, 160, 243);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 95%;
+  cursor: pointer;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.footer .logo{
+margin-top: -4%;
+margin-left: -1%;
+}
+
+.footer .logo img{
+  width: 40%;
+  padding-bottom: 5%;
+}
+
+.footer .logo p{
+  padding-top: 15%;
+margin-top: 35%;
+margin-left: -95px;
+}
+
+.menu h3{
+  font-size: 20px;
+}
+
+.menu li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.links li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+.overview li{
+  list-style-type: none;
+  padding: 10px;
+  
+}
+
+.socialmedia img{
+  width: 30px;
+  padding-top: 10%;
+  padding: 10px 5px;
+  
+}
+
+.socialmedia img:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width:1630px) {
+  .logo{
+    margin-left: 6%;
+}
+
+.list-item{
+  font-size:20px 
+}
+
+  .list{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .list-item{
+    padding: 0 15px;
+  }
+
+  .part1-left h1{
+    font-size: 50px;
+    }
+    
+    .content h1{
+      font-size: 50px;
+    }
+
+    .content p{
+      font-size: 15px;
+    }
+
+    .midpart-3 h1{
+      font-size: 50px;
+    }
+
+    .midpart-3 p{
+      font-size: 15px;
+    }
+
+    .img1 img{
+      width: 500px;
+      }
+
+      .service h1{
+        font-size: 50px;
+      }
+
+      .service p{
+        font-size: 20px;
+      }
+     
+      /* ----START FO TESTIMONIAL----- */
+
+      .testimonial h1{
+        font-size: 50px;
+      }
+      
+      .testimonial p{
+        font-size: 20px;
+      }
+    
+      article{
+        font-size: 15px;
+      }
+
+      .info{
+        margin-top: 7%;
+         margin-left: -75%;
+      } 
+
+      .profile img{
+        width: 70px;
+        margin-top: 27%;
+        margin-left: -30%;
+      }
+      
+      .info div h3{
+        position: relative;
+        margin-top: -50%;
+        margin-left: 33%;
+        width: 100%;
+      }
+      
+      .info div p{
+        position: relative;
+        margin-top: 10%;
+        margin-left: 33%;
+        width: 100%;
+      }
+      
+/* -----END OF TESTIMONIAL----- */
+
+      .packages{
+        height: 130vh;
+      }
+   
+      .packages .headline{
+        font-size: 50px
+      }
+
+    .PLAN{
+      margin-right: 1%;
+      /* margin-left: 5%; */
+      height: 90vh;
+      border-radius: 10px;
+      width: 400px;
+    }
+
+    
+}
+
+@media screen and (max-width:1200px) {
+
+.logo{
+  margin-left: 4%;
+}
+
+  .logo img{
+    width: 90px;
+  }
+  .list-item{
+    font-size:18px 
+  }
+
+  .navbutton{
+    margin-right: 6%;
+  }
+  
+  .navbtn{
+    padding: 10px 10px;
+    border-radius: 8px;
+  }
+  .list{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .list-item{
+    padding: 0 10px;
+  }
+
+  .part1-left h1{
+    font-size: 40px;
+    }
+    
+    .part1-left p{
+      font-size: 15px;
+    }
+    
+     .img img{
+    width: 400px;
+    }
+
+    .content h1{
+      font-size: 40px;
+    }
+
+    .content p{
+      font-size: 15px;
+    }
+
+    .midpart-3 h1{
+      font-size: 40px;
+    }
+
+    .midpart-3 p{
+      font-size: 15px;
+    }
+
+    .img1 img{
+      width: 400px;
+      }
+  
+      .service h1{
+        font-size: 40px;
+      }
+
+      .service p{
+        font-size: 15px;
+      }
+
+      .b img{
+        width:40px ;
+      }
+
+      .b h1{
+        font-size: 25px ;
+      }
+
+      .b p{
+        font-size:13px ;
+      }
+
+      .packages .headline{
+        font-size: 40px
+      }
+
+      .REGISTER{
+        height: 30vh;}
+
+      .registration h1{
+        font-size: 40px;
+        padding-bottom: 5%;
+      }
+      
+      .registration p{
+      font-size: 15px;
+      }
+      
+      .registerbutton button{
+        margin-top: 80%;
+        padding: 10px 20px;
+      }
+
+
+      .testimonial h1{
+        font-size: 40px;
+      }
+      
+      .testimonial p{
+      font-size: 20px;
+       }
+
+
+       article{
+        font-size: 15px;
+      }
+
+      .info{
+        margin-top: 7%;
+         margin-left: -75%;
+      } 
+
+      .profile img{
+        width: 60px;
+        margin-top: 27%;
+        margin-left: -35%;
+      }
+      
+      .info div h3{
+        position: relative;
+        margin-top: -50%;
+        margin-left: 30%;
+        width: 100%;
+      }
+      
+      .info div p{
+        position: relative;
+        margin-top: 10%;
+        margin-left: 30%;
+        width: 100%;
+      }
+
+      .packages{
+        height: 110vh;
+      }
+   
+
+    .PLAN{
+      margin-right: 1%;
+      /* margin-left: 5%; */
+      height: 80vh;
+      border-radius: 10px;
+      width: 300px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+  .logo{
+    margin-left: 2%;
+  }
+  
+    .logo img{
+      width: 80px;
+    }
+    .list-item{
+      font-size:16px 
+    }
+  
+    .navbutton{
+      margin-right: 6%;
+    }
+    
+    .navbtn{
+      padding: 8px 8px;
+      border-radius: 8px;
+    }
+   
+    button{
+      padding: 50px;
+    }
+  
+
+  article{
+    font-size: 12px;
+  }
+
+  .info{
+    margin-top: 7%;
+     margin-left: -75%;
+  } 
+
+  .profile img{
+    width: 50px;
+    margin-top: 27%;
+    margin-left: -25%;
+  }
+  
+  .info div h3{
+    position: relative;
+    font-size: 15px;
+    margin-top: -50%;
+    margin-left: 30%;
+    width: 100%;
+  }
+  
+  .info div p{
+    position: relative;
+    font-size: 12px;
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  .packages{
+    height: 110vh;
+  }
+
+
+.PLAN{
+  margin-right: 1%;
+  /* margin-left: 5%; */
+  height: 80vh;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.button button{
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+
+
+ .pricing button{
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 12px;
+}
+
+.testimonial p{
+  width:80%
+ }
+ 
+
+}
+
+@media screen and (max-width:900px) {
+
+  .logo img{
+    margin-left: 8%;
+    width: 80px;
+  }
+  
+  .navbutton{
+    margin-right: 6%;
+  }
+  
+  .navbtn{
+    padding: 6px 6px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .button button{
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+
+  .part1-left h1{
+    font-size: 30px;
+    }
+    
+    .part1-left p{
+    font-size: 10px;
+    }
+    
+     .img img{
+    width: 300px;
+    }
+
+
+    .content h1{
+      font-size: 30px;
+    }
+
+    .content p{
+      font-size: 10px;
+    }
+
+    .midpart-3 h1{
+      font-size: 30px;
+    }
+
+    .midpart-3 p{
+      font-size: 10px;
+    }
+
+    .img1 img{
+      width: 300px;
+      }
+  
+      .service h1{
+        font-size: 30px;
+      }
+
+      .service p{
+        font-size: 10px;
+      }
+
+      .b img{
+        width:30px ;
+      }
+
+      .b h1{
+        font-size: 20px ;
+      }
+
+      .b p{
+        font-size:10px ;
+      }
+
+      .packages .headline{
+        font-size: 25px
+      }
+
+      .registration h1{
+        font-size: 30px;
+        padding-bottom: 5%;
+      }
+      
+      .registration p{
+      font-size: 10px;
+      }
+      
+      .registerbutton button{
+        padding: 10px 20px;
+      }
+
+      .REGISTER{
+        height: 20vh;
+        margin: auto;
+      }
+
+      .registration h1{
+        font-size: 30px;
+        padding-bottom: 5%;
+      }
+      
+      .registration p{
+      font-size: 10px;
+      }
+      
+      .registerbutton button{
+        margin-top: 50%;
+        padding: 10px 20px;
+      }
+
+      .footer .logo{
+        margin-top: -4%;
+        margin-left: -1%;
+        }
+        
+        .footer .logo img{
+          width: 40%;
+          padding-bottom: 5%;
+        }
+        
+        .footer .logo p{
+          padding-top: 15%;
+        margin-top: 35%;
+        margin-left: -95px;
+        }
+
+        
+      .testimonial h1{
+        font-size: 30px;
+      }
+      
+      .testimonial p{
+      font-size: 15px;
+      width: 82%;
+       }
+
+       /* article{
+        font-size: 20px;
+        margin-left: -6%;
+      } */
+      
+
+       .packages{
+        height: 110vh;
+    }
+    .packages .headline{
+        font-size: 30px;
+    padding-bottom:40px
+    } 
+    
+      .pricings{
+        margin-top: 5%;
+        } 
+    
+        .PLAN{
+       
+          height: 70vh;
+          width: 250px;
+        }
+    
+        .plan-title{
+          padding: 10px;
+        }
+    
+        .plan-title h1{
+          font-size: 25px;
+          margin-bottom: 10px;
+        }
+    
+        .PLAN .facility ul li{
+          font-size: 15px;
+          padding: 10px;
+        }
+  }
+
+  @media screen and (max-width:850px) {
+
+    .logo{
+      margin-left: 3%;
+    }
+    
+      .logo img{
+        width: 70px;
+      }
+      .list-item{
+        font-size:13px 
+      }
+    
+      .navbutton{
+        margin-right: 6%;
+      }
+      
+      .navbtn{
+        padding: 6px 6px;
+        border-radius: 8px;
+        font-size: 10px;
+      }
+  
+
+
+    article{
+      font-size: 10px;
+    }
+  
+    .info{
+      margin-top: 7%;
+       margin-left: -75%;
+    } 
+  
+    .profile img{
+      width: 50px;
+      margin-top: 27%;
+      margin-left: -55%;
+    }
+    
+    .info div h3{
+      position: relative;
+      font-size: 10px;
+      margin-top: -50%;
+      margin-left: 30%;
+      width: 100%;
+    }
+    
+    .info div p{
+      position: relative;
+      font-size: 10px;
+      margin-top: 10%;
+      margin-left: 30%;
+      width: 100%;
+    }
+  }
+
+  
+@media screen and (max-width:800px) {
+
+  .part1-left h1{
+    font-size: 25px;
+    }
+
+/* ------PACKAGES-------- */
+
+.packages{
+  height: 80vh;
+}
+
+.pricings{
+  margin-top: 2%;
+  } 
+
+  .PLAN{
+    height: 60vh;
+    width: 200px;
+  }
+
+  .plan-title{
+    padding: 10px;
+  }
+
+  .plan-title h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .PLAN .facility ul li{
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .pricing h1 span{
+    font-size: 25px;
+  }
+
+  .pricing h1{
+    font-size: 20px;
+  }
+
+  .pricing button{
+    padding: 5px 5px;
+  }
+
+
+
+  .footer .logo{
+    margin-top: -6%;
+    margin-right: 4%;
+    }
+    
+    .footer .logo img{
+      width: 30%;
+      padding-bottom: 5%;
+    }
+    
+    .footer .logo p{
+      padding-top: 15%;
+    margin-top: 35%;
+    margin-left: -95px;
+    font-size: 12px;
+    }
+
+    .footer h3{
+      font-size: 15px;
+    }
+
+    .menu li{
+      padding: 5px;
+      font-size: 10px;
+    }
+    
+    .links li{
+      padding: 5px;
+      font-size: 10px;
+    }
+    
+    .overview li{
+      padding: 5px;
+      font-size: 10px;
+      }
+    
+    .socialmedia img{
+      width: 20px;
+      padding-top: 10%;
+      padding: 0px 0px;
+      
+    }
+    
+}
+
+@media screen and (max-width:710px) {
+
+  .logo{
+    margin-left: -1%;
+  }
+  
+    .logo img{
+      width: 60px;
+    }
+    .list-item{
+      font-size:13px 
+    }
+  
+    .navbutton{
+      margin-right: 4%;
+    }
+    
+    .navbtn{
+      padding: 6px 6px;
+      border-radius: 8px;
+      font-size: 10px;
+    }
+   
+    .button button{
+      padding: 5px 5px;
+      font-size: 8px;
+    }
+    .list-item{
+      padding: 0 7px;
+    } 
+
+    .part1-left{
+      margin-left: 5%;
+    }
+  .part1-left .img img{
+    width: 80%;
+    margin-left: 1%;
+  }
+    
+  .part1-left h1{
+      font-size: 20px;
+      }
+
+
+      .part1-left p{
+       width: 70%;
+        }
+
+        .part-2.left .img img{
+          width: 80%;
+          margin-left: 1%;
+        }
+
+
+        .content h1{
+          font-size: 20px;
+        }
+    
+        .content p{
+          font-size: 10px;
+          width: 70%;
+        }
+    
+        .midpart-3 h1{
+          font-size: 20px;
+        }
+    
+        .midpart-3 .content{
+          margin-left: 5%;
+        }
+
+        .midpart-3 p{
+          font-size: 10px;
+          width: 70%;
+        }
+    
+        .img1 img{
+          width: 80%;
+          }
+      
+          .service h1{
+            font-size: 20px;
+          }
+    
+          .service p{
+            font-size: 10px;
+            width: 30%;
+          }
+    
+          .b img{
+            width:30px ;
+          }
+    
+          .b h1{
+            font-size: 15px ;
+          }
+    
+          .b p{
+            font-size:10px ;
+            width: 50%;
+          }
+ 
+        
+          .registerbutton button{
+            padding: 10px 10px;
+          }
+    
+          .REGISTER{
+            height: 20vh;
+            margin: auto;
+          }
+    
+          .registration h1{
+            font-size: 20px;
+            padding-bottom: 5%;
+          }
+          
+          .registration p{
+          font-size: 10px;
+          width: 50%;
+          }
+          
+          .registerbutton button{
+            margin-top: 50%;
+            padding: 10px 10px;
+          }
+    
+
+
+          .packages{
+            height: 80vh;
+          }
+          
+          .pricings{
+            margin-top: 2%;
+            margin-left: -4%;
+            } 
+          
+            .PLAN{
+              height: 50vh;
+              width: 180px;
+            }
+          
+            .plan-title{
+              padding: 10px;
+            }
+          
+            .plan-title h1{
+              font-size: 20px;
+              margin-bottom: 10px;
+            }
+          
+            .PLAN .facility ul li{
+              font-size: 10px;
+              padding: 5px;
+            }
+          
+            .pricing h1 span{
+              font-size: 20px;
+            }
+          
+            .pricing h1{
+              font-size: 20px;
+            }
+          
+            .pricing button{
+              padding: 5px 5px;
+            }
+          
+ .reviews{
+  margin-left: -5%;
+  width: 100%;
+} 
+
+
+
+          .footer .logo{
+            margin-top: -4%;
+            margin-left: -1%;
+            }
+            
+            .footer .logo img{
+              width: 40%;
+              padding-bottom: 5%;
+            }
+            
+            .footer .logo p{
+              padding-top: 15%;
+            margin-top: 35%;
+            margin-left: -95px;
+            }
+    
+            
+          .testimonial h1{
+            font-size: 30px;
+          }
+          
+          .testimonial p{
+          font-size: 10px;
+           }
+    
+       
+          
+}
+
+
+@media screen and (max-width:620px) {
+.reviews{
+  margin-left: -8%;
+  width: 100%;
+}
+  .review article{
+    font-size: 9px;
+  }
+} 
+
+
+
+
+@media screen and (max-width:550px) {
+  /* .reviews{
+    margin-left: -8%;
+    width: 100%;
+  } */
+    .review article{
+      font-size: 8px;
+    }
+  } 
+
+
+    .packages{
+      height: 70vh;
+    }
+    
+    .pricings{
+      margin-top: 2%;
+      margin-left: -4%;
+      } 
+    
+      .PLAN{
+        height: 50vh;
+        width: 150px;
+        margin-right: -2%;
+      }
+    
+      .plan-title{
+        padding: 10px;
+      }
+    
+      .plan-title h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+    
+      .PLAN .facility ul li{
+        font-size: 10px;
+        padding: 5px;
+      }
+    
+      .pricing h1 span{
+        font-size: 20px;
+      }
+    
+      .pricing h1{
+        font-size: 20px;
+      }
+    
+      .pricing button{
+        padding: 5px 5px;
+      }
+    
+}
